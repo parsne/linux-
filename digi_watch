@@ -1,0 +1,8 @@
+#!/bin/bash
+green=$'\e[1;32m'
+while true
+do
+clear
+echo $green $(date +%T)
+sleep 1s
+done
